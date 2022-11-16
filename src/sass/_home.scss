@@ -1,0 +1,51 @@
+
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5em;
+    background-color: grey;
+    .homeLeft{
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+        width: 25%;
+        .profileImage{
+            width: 100%;
+            .profileImageImage{
+                margin: 15%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width: 70%;
+                border-radius: 2em;
+            }
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            .contactInstance{
+                width: 80%;
+                background-color: white;
+                .contactName{
+                    margin-top: 4%;
+                }
+            }
+        }
+    }
+    .homeRight{
+        background-color: pink;
+        width: 75%;
+        .homeRightText{
+            display: flex;
+            flex-direction: column;
+            padding: 10%;
+            padding-top: 2%;
+            .homeRightParagraph{
+                margin-top: 2%;
+            }
+        }
+    }
+}

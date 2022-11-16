@@ -1,0 +1,45 @@
+
+
+.writings{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: aqua;
+    .writingsText{
+        display: flex;
+        width: 80%;
+    }
+    .writingBlocks{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        .writingBlock{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            height: 7em;
+            overflow: hidden;
+            position: relative;
+            .writingBlockHeader{
+                background-color: white;
+                border-top-left-radius: 2em;
+                border-top-right-radius: 2em;
+                text-align: center;
+            }
+            
+        }
+        .writingBlock::after {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            bottom: 0;
+            left: 0;
+            pointer-events: none;
+            background-image: linear-gradient(to bottom, rgba(0, 255,255,0), rgba(0 ,255,255, 1) 98%);
+            width: 100%;
+            height: 5em;
+        }
+    }
+}

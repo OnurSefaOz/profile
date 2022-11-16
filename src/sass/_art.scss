@@ -1,0 +1,27 @@
+
+.art{
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    .artText{
+        background-color: green;
+    }
+    .artImages{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        .artInstance{
+            .artInstanceImage{
+                margin: 0.4em;
+                .artInstanceImageImage{
+                    width: 15em;
+                    height: 15em;
+                    object-fit: contain;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}
