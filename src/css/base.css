@@ -79,12 +79,12 @@ body {
 
 .art {
   width: 100%;
-  background-color: grey;
+  background-color: Black;
   display: flex;
   flex-direction: column;
 }
 .art .artText {
-  background-color: green;
+  background-color: black;
 }
 .art .artImages {
   display: flex;
@@ -92,14 +92,22 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.art .artImages .artInstance {
+  background-image: radial-gradient(rgb(255, 255, 255) 25%, rgb(0, 0, 0) 75%);
+}
 .art .artImages .artInstance .artInstanceImage {
-  margin: 0.4em;
+  width: 23em;
+  height: 23em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .art .artImages .artInstance .artInstanceImage .artInstanceImageImage {
-  width: 15em;
-  height: 15em;
+  cursor: pointer;
+  width: 19em;
+  height: 19em;
   object-fit: contain;
-  background-color: black;
 }
 
 .writings {
@@ -143,6 +151,110 @@ body {
   background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(0, 255, 255) 98%);
   width: 100%;
   height: 5em;
+}
+
+.projects {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.projects .projectsText {
+  font-size: 25px;
+  color: blue;
+}
+.projects .projectSections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects .projectSections .projectSection {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: 1em;
+  border: 2em;
+  border-width: 2em;
+  border-color: grey;
+  position: relative;
+}
+.projects .projectSections .projectSection .projectImageSection .projectInstanceImage {
+  width: 15em;
+  height: 10em;
+  object-fit: contain;
+  background-color: white;
+}
+.projects .projectSections .projectSection .projectDescriptionSection {
+  background-color: white;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 62vw;
+}
+.projects .projectSections .projectSection .projectDescriptionSection .projectTitle {
+  font-size: 22px;
+  height: 2em;
+  padding-left: 2em;
+}
+.projects .projectSections .projectSection .projectDescriptionSection .projectDescription {
+  height: 8em;
+  padding-left: 1em;
+}
+.projects .projectSections .projectSection::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(240, 248, 255) 98%);
+  width: 80vw;
+  height: 4em;
+}
+
+.instanceBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+.instanceBackground .instance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60vw;
+  margin-bottom: 3em;
+}
+.instanceBackground .instance .instanceHeader {
+  margin-top: 1em;
+  font-size: 35px;
+  margin-bottom: 1em;
+}
+.instanceBackground .instance .instanceDescription {
+  margin-top: 0.5em;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+.instanceBackground .instance .instanceImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.instanceBackground .instance .instanceImage .instanceImageImage {
+  max-width: 35em;
+  max-height: 35em;
+  object-fit: contain;
+}
+.instanceBackground .instance .instanceImage .instanceImageDescription {
+  max-width: 50em;
 }
 
 /*# sourceMappingURL=base.css.map */

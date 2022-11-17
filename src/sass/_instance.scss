@@ -1,0 +1,40 @@
+.instanceBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    .instance{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 60vw;
+        margin-bottom: 3em;
+        .instanceHeader{
+            margin-top: 1em;
+            font-size: 35px;
+            margin-bottom: 1em;
+        }
+        .instanceDescription{
+            margin-top: 0.5em;
+            width: 100%;
+            font-size: 20px;
+            margin-bottom: 0.5em;
+        }
+        .instanceImage{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            .instanceImageImage{
+                max-width: 35em;
+                max-height: 35em;
+                object-fit: contain;
+            }
+            .instanceImageDescription{
+                max-width: 50em;
+            }
+        }
+    }
+}

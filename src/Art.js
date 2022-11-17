@@ -443,10 +443,6 @@ class Art extends React.Component{
                 <div className="artInstanceImage">
                     <img className="artInstanceImageImage" src={k.source} alt="art image"></img>
                 </div>
-                <div className="artInstanceDesc">
-                    <b>{k.name}</b><br></br>
-                    {techniques[k.technique]}
-                </div>
             </div>
         )
 

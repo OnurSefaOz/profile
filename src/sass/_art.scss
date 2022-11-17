@@ -1,11 +1,11 @@
 
 .art{
     width: 100%;
-    background-color: grey;
+    background-color: Black;
     display: flex;
     flex-direction: column;
     .artText{
-        background-color: green;
+        background-color: black;
     }
     .artImages{
         display: flex;
@@ -13,13 +13,21 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         .artInstance{
+            // background-image: linear-gradient(to bottom, rgba(0, 255,255,0), rgba(0 ,255,255, 1) 98%);
+            // background-image: radial-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 1) 75%);
+            background-image: radial-gradient(rgba(255, 255, 255, 1) 25%, rgba(0, 0, 0, 1) 75%);
             .artInstanceImage{
-                margin: 0.4em;
+                width: 23em;
+                height: 23em;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 .artInstanceImageImage{
-                    width: 15em;
-                    height: 15em;
+                    cursor: pointer;
+                    width: 19em;
+                    height: 19em;
                     object-fit: contain;
-                    background-color: black;
                 }
             }
         }
