@@ -2,70 +2,72 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .navigation .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
-  height: 3em;
-  background-color: yellow;
+  width: 100vw;
+  height: 7vh;
+  background-color: #CEE0DC;
 }
 .navigation .navbar .navbarHome {
   display: flex;
-  background-color: black;
 }
 .navigation .navbar .navbarPages {
   display: flex;
-  background-color: red;
 }
-.navigation .navbar .navbarPages .navbarPage {
-  display: flex;
-  width: 5em;
+.navigation .navbar .navbarPages .navbarPage .navbarProfile {
+  text-decoration: none;
+}
+.navigation .navbar .navbarPages .navbarPage .navbarProfile .navbarProfileInner {
+  margin-top: 1em;
   margin-left: 1.5em;
   margin-right: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 7em;
+  height: 2em;
+  background-color: #FF9505;
+  border-radius: 2em;
+  text-align: center;
 }
 
 .home {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-bottom: 5em;
-  background-color: grey;
+  height: 93vh;
+  background-color: #CEE0DC;
 }
 .home .homeLeft {
-  display: flex;
-  flex-direction: column;
-  background-color: orange;
-  width: 25%;
-}
-.home .homeLeft .profileImage {
-  width: 100%;
+  margin: 1.5em;
+  border-radius: 2em;
+  width: 20em;
+  overflow: hidden;
+  background-color: #FF9505;
 }
 .home .homeLeft .profileImage .profileImageImage {
-  margin: 15%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 70%;
-  border-radius: 2em;
+  padding: 1.5em;
+  width: 17em;
+  object-fit: contain;
+  border-radius: 2.8em;
 }
-.home .homeLeft .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-}
-.home .homeLeft .contact .contactInstance {
-  width: 80%;
-  background-color: white;
-}
-.home .homeLeft .contact .contactInstance .contactName {
-  margin-top: 4%;
+.home .homeLeft .contactHolder {
+  width: 17em;
+  padding: 1.5em;
 }
 .home .homeRight {
-  background-color: pink;
-  width: 75%;
+  background-color: #EAF1EA;
+  width: 65em;
+  margin: 1.5em;
+  border-radius: 2em;
 }
 .home .homeRight .homeRightText {
   display: flex;
@@ -78,26 +80,28 @@ body {
 }
 
 .art {
-  width: 100%;
-  background-color: Black;
+  width: 100vw;
+  background-color: #CEE0DC;
   display: flex;
   flex-direction: column;
 }
-.art .artText {
-  background-color: black;
-}
 .art .artImages {
+  margin: 3vw;
+  padding: 2vw;
+  border-radius: 2em;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: #022B3A;
 }
 .art .artImages .artInstance {
-  background-image: radial-gradient(rgb(255, 255, 255) 25%, rgb(0, 0, 0) 75%);
+  background-image: radial-gradient(rgb(206, 224, 220) 55%, rgb(2, 43, 58) 70%);
 }
 .art .artImages .artInstance .artInstanceImage {
-  width: 23em;
-  height: 23em;
+  width: 21em;
+  height: 21em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,21 +109,23 @@ body {
 }
 .art .artImages .artInstance .artInstanceImage .artInstanceImageImage {
   cursor: pointer;
-  width: 19em;
-  height: 19em;
+  width: 17.5em;
+  height: 17.5em;
   object-fit: contain;
 }
 
 .writings {
+  padding-top: 1.5em;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-color: aqua;
+  background-color: #CEE0DC;
 }
 .writings .writingsText {
   display: flex;
   width: 80%;
+  padding-bottom: 1em;
 }
 .writings .writingBlocks {
   display: flex;
@@ -132,14 +138,17 @@ body {
   margin-top: 2%;
   margin-bottom: 2%;
   height: 7em;
+  border-radius: 2em;
   overflow: hidden;
   position: relative;
 }
 .writings .writingBlocks .writingBlock .writingBlockHeader {
-  background-color: white;
-  border-top-left-radius: 2em;
-  border-top-right-radius: 2em;
+  background-color: #022B3A;
   text-align: center;
+  color: #FF9505;
+}
+.writings .writingBlocks .writingBlock .wiritingBlockText {
+  background-color: #CEE0DC;
 }
 .writings .writingBlocks .writingBlock::after {
   content: "";
@@ -148,70 +157,87 @@ body {
   bottom: 0;
   left: 0;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(0, 255, 255) 98%);
+  background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(206, 224, 220) 98%);
   width: 100%;
   height: 5em;
 }
 
-.projects {
-  background-color: aliceblue;
+.projectsHolder {
+  background-color: #CEE0DC;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.projectsHolder .projectsSpace {
+  width: 100vw;
+  height: 1em;
+}
+.projectsHolder .projects {
+  width: 96vw;
+  padding-top: 2em;
+  border-radius: 5em;
+  background-color: #EAF1EA;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: 2em;
 }
-.projects .projectsText {
-  font-size: 25px;
-  color: blue;
+.projectsHolder .projects .projectsText {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 80vw;
 }
-.projects .projectSections {
+.projectsHolder .projects .projectSections {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.projects .projectSections .projectSection {
+.projectsHolder .projects .projectSections .projectSection {
+  border-radius: 2em;
+  overflow: hidden;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   width: 80vw;
   margin: 1em;
-  border: 2em;
-  border-width: 2em;
-  border-color: grey;
   position: relative;
 }
-.projects .projectSections .projectSection .projectImageSection .projectInstanceImage {
-  width: 15em;
+.projectsHolder .projects .projectSections .projectSection .projectImageSection .projectInstanceImage {
+  width: 15vw;
   height: 10em;
   object-fit: contain;
-  background-color: white;
+  background-color: #CEE0DC;
 }
-.projects .projectSections .projectSection .projectDescriptionSection {
-  background-color: white;
+.projectsHolder .projects .projectSections .projectSection .projectDescriptionSection {
+  background-color: #CEE0DC;
   height: 10em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 62vw;
+  width: 65vw;
 }
-.projects .projectSections .projectSection .projectDescriptionSection .projectTitle {
+.projectsHolder .projects .projectSections .projectSection .projectDescriptionSection .projectTitle {
   font-size: 22px;
   height: 2em;
   padding-left: 2em;
 }
-.projects .projectSections .projectSection .projectDescriptionSection .projectDescription {
+.projectsHolder .projects .projectSections .projectSection .projectDescriptionSection .projectDescription {
   height: 8em;
   padding-left: 1em;
 }
-.projects .projectSections .projectSection::after {
+.projectsHolder .projects .projectSections .projectSection::after {
   content: "";
   position: absolute;
   z-index: 1;
   bottom: 0;
   left: 0;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(240, 248, 255) 98%);
+  background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0), rgb(206, 224, 220) 99%);
   width: 80vw;
   height: 4em;
 }

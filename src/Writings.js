@@ -84,7 +84,8 @@ class Writings extends React.Component{
 
         return <div className="writings">
             <div className="writingsText">
-                Hello there
+            &emsp;I started to write stories and essay when I was in high school. They are in Turkish, my mother tongue. I feel free to explore different ideas
+                and make some experiments with my imaginary characters. It is fun.
             </div>
             <div className="writingBlocks">
                 {

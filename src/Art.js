@@ -453,39 +453,10 @@ class Art extends React.Component{
         let currentArts = this.state.arts;
 
         return <div className="art">
-            <div className="artText">
-                <div className="artTextHeader">
-                    Art
-                </div>
-                <div className="artTextDesc">
-                    I oil paint
-                </div>
-            </div>
             <div className="artImages">
                 {
                     currentArts.map( (key) => this.makeArt(key)) 
                 }
-                {/* <div className="artInstance">
-                    <div className="artInstanceImage">
-                        <img className="artInstanceImageImage" src={example0} alt="art image"></img>
-                    </div>
-                    <div className="artInstanceDesc">
-                        <b>waves</b><br></br>
-                        oil on canvas<br></br>
-                        30*50cm
-                    </div>
-                </div>
-                
-                <div className="artInstance">
-                    <div className="artInstanceImage">
-                        <img className="artInstanceImageImage" src={example1} alt="art image"></img>
-                    </div>
-                    <div className="artInstanceDesc">
-                        <b>plague doctor</b><br></br>
-                        ink on paper<br></br>
-                        10*20cm
-                    </div>
-                </div> */}
             </div>
         </div>
     }

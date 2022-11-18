@@ -5,30 +5,33 @@ function Navigation() {
     return (
         <div className="navigation">
             <nav className="navbar">
-                <div className="navbarHome">
-                    <NavLink className="navbarProfile" to="/">
-                        Home
-                    </NavLink>
-                </div>
                 <div className="navbarPages">
                     <div className="navbarPage">
+                        <NavLink className="navbarProfile" to="/">
+                            <div className="navbarProfileInner">
+                                Home
+                            </div>
+                        </NavLink>
+                    </div>
+                    <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/art">
-                            Art
+                            <div className="navbarProfileInner">
+                                Art
+                            </div>
                         </NavLink>
                     </div>
                     <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/projects">
-                            Projects
+                            <div className="navbarProfileInner">
+                                Projects
+                            </div>
                         </NavLink>
                     </div>
                     <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/writings">
-                            Writings
-                        </NavLink>
-                    </div>
-                    <div className="navbarPage">
-                        <NavLink className="navbarProfile" to="/movieCatalogue">
-                            Movies
+                            <div className="navbarProfileInner">
+                                Writings
+                            </div>
                         </NavLink>
                     </div>
                 </div>

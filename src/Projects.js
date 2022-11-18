@@ -48,126 +48,126 @@ class Projects extends React.Component{
                     "redirect": "/projects/pca",
                     "image": "https://user-images.githubusercontent.com/12373950/202245488-d3e69941-4c52-44d3-98e4-cdc7478bae65.png"
                 },
-                {
-                    "title": "Robot Localization Logic using Prolog",
-                    "description": "",
-                    "redirect": "/projects/robotlocalization",
-                    "image": "https://user-images.githubusercontent.com/12373950/202246832-b760adf1-260d-42b3-a024-5357bd2cd28c.png"
-                },
-                {
-                    "title": "Different Approaches of Minimax on Skewed Chess Game",
-                    "description": "",
-                    "redirect": "/projects/minimax",
-                    "image": "https://user-images.githubusercontent.com/12373950/202247906-51b71f87-c409-456c-aae3-4b647864903f.png"
-                },
-                {
-                    "title": "Tents Puzzle on Scheme",
-                    "description": "",
-                    "redirect": "/projects/tentspuzzle",
-                    "image": "https://user-images.githubusercontent.com/12373950/202248474-e7e27315-65ae-415f-a0b3-9fee0f36c992.png"
-                },
-                {
-                    "title": "Song Recommendation System in Prolog",
-                    "description": "",
-                    "redirect": "/projects/songrecommendation",
-                    "image": "https://user-images.githubusercontent.com/12373950/202249069-8c51869f-7bf2-4ee0-8965-f6bb29e9aa8c.png"
-                },
-                {
-                    "title": "Vergi Dairesi Field Extraction from Expenses",
-                    "description": "",
-                    "redirect": "/projects/vergidairesi",
-                    "image": ""
-                },
-                {
-                    "title": "PDF Reader",
-                    "description": "",
-                    "redirect": "/projects/pdfreader",
-                    "image": ""
-                },
-                {
-                    "title": "Expense Type Detector",
-                    "description": "",
-                    "redirect": "/projects/expensetype",
-                    "image": ""
-                },
-                {
-                    "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
-                    "description": "gepsmin ie310pr4 github",
-                    "redirect": "/projects/variableminimization",
-                    "image": ""
-                },
-                {
-                    "title": "Sync Ticket",
-                    "description": "gepsmin syncticket github",
-                    "redirect": "/projects/syncticket",
-                    "image": ""
-                },
-                {
-                    "title": "WatchDog",
-                    "description": "gepsmin watchdog github",
-                    "redirect": "/projects/watchdog",
-                    "image": ""
-                },
-                {
-                    "title": "Global Maxima Point Detector",
-                    "description": "gepsmin global maxima point detector github",
-                    "redirect": "/projects/globalmaxima",
-                    "image": ""
-                },
-                {
-                    "title": "Multi Processing using MPI",
-                    "description": "gepsmin MPI github",
-                    "redirect": "/projects/mpi",
-                    "image": ""
-                },
-                {
-                    "title": "identic: Traversing Files or Directories",
-                    "description": "gepsmin identic github",
-                    "redirect": "/projects/identic",
-                    "image": ""
-                },
-                {
-                    "title": "QT Memory Game",
-                    "description": "gepsmin qt memory game",
-                    "redirect": "/projects/qtmemorygame",
-                    "image": ""
-                },
-                {
-                    "title": "Data Structures and Algorithms Course Projects",
-                    "description": "gepsmin assignemnt ile baslayan projeler, hepsini bir araya getirip sunucam ayri ayri sacma olur gibi",
-                    "redirect": "/projects/datastructures",
-                    "image": ""
-                },
-                {
-                    "title": "Movie App",
-                    "description": "eger guncellemeey firsat bulursam ekleyecegim",
-                    "redirect": "/projects/movieapp",
-                    "image": ""
-                },
-                {
-                    "title": "Generating Art using Generative Adversarial Networks",
-                    "description": "githubdaki versiyonunu degil de hazirladigimiz final versiyonunu koyacagim",
-                    "redirect": "/projects/generatingart",
-                    "image": ""
-                },
-                {
-                    "title": "Turkish Preprocessing",
-                    "description": "OnurSefa github hesabinda var ama sanirim o final hali degil, ssd deki versiyonu bitmis hali sanirim",
-                    "redirect": "/projects/preprocessing",
-                    "image": ""
-                },
-                {
-                    "title": "Contex Free Grammer Parser for Turkish",
-                    "description": "ssd de var",
-                    "redirect": "/projects/grammerparser",
-                    "image": ""
-                },
-                {
-                    "title": "Question Answer System built on BERT",
-                    "description": "ssd de bi yerlerde olmasi lazim",
-                    "redirect": "/projects/questionanswer",
-                    "image": ""
-                }
+                // {
+                //     "title": "Robot Localization Logic using Prolog",
+                //     "description": "",
+                //     "redirect": "/projects/robotlocalization",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202246832-b760adf1-260d-42b3-a024-5357bd2cd28c.png"
+                // },
+                // {
+                //     "title": "Different Approaches of Minimax on Skewed Chess Game",
+                //     "description": "",
+                //     "redirect": "/projects/minimax",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202247906-51b71f87-c409-456c-aae3-4b647864903f.png"
+                // },
+                // {
+                //     "title": "Tents Puzzle on Scheme",
+                //     "description": "",
+                //     "redirect": "/projects/tentspuzzle",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202248474-e7e27315-65ae-415f-a0b3-9fee0f36c992.png"
+                // },
+                // {
+                //     "title": "Song Recommendation System in Prolog",
+                //     "description": "",
+                //     "redirect": "/projects/songrecommendation",
+                //     "image": "https://user-images.githubusercontent.com/12373950/202249069-8c51869f-7bf2-4ee0-8965-f6bb29e9aa8c.png"
+                // },
+                // {
+                //     "title": "Vergi Dairesi Field Extraction from Expenses",
+                //     "description": "",
+                //     "redirect": "/projects/vergidairesi",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "PDF Reader",
+                //     "description": "",
+                //     "redirect": "/projects/pdfreader",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Expense Type Detector",
+                //     "description": "",
+                //     "redirect": "/projects/expensetype",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
+                //     "description": "gepsmin ie310pr4 github",
+                //     "redirect": "/projects/variableminimization",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Sync Ticket",
+                //     "description": "gepsmin syncticket github",
+                //     "redirect": "/projects/syncticket",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "WatchDog",
+                //     "description": "gepsmin watchdog github",
+                //     "redirect": "/projects/watchdog",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Global Maxima Point Detector",
+                //     "description": "gepsmin global maxima point detector github",
+                //     "redirect": "/projects/globalmaxima",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Multi Processing using MPI",
+                //     "description": "gepsmin MPI github",
+                //     "redirect": "/projects/mpi",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "identic: Traversing Files or Directories",
+                //     "description": "gepsmin identic github",
+                //     "redirect": "/projects/identic",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "QT Memory Game",
+                //     "description": "gepsmin qt memory game",
+                //     "redirect": "/projects/qtmemorygame",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Data Structures and Algorithms Course Projects",
+                //     "description": "gepsmin assignemnt ile baslayan projeler, hepsini bir araya getirip sunucam ayri ayri sacma olur gibi",
+                //     "redirect": "/projects/datastructures",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Movie App",
+                //     "description": "eger guncellemeey firsat bulursam ekleyecegim",
+                //     "redirect": "/projects/movieapp",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Generating Art using Generative Adversarial Networks",
+                //     "description": "githubdaki versiyonunu degil de hazirladigimiz final versiyonunu koyacagim",
+                //     "redirect": "/projects/generatingart",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Turkish Preprocessing",
+                //     "description": "OnurSefa github hesabinda var ama sanirim o final hali degil, ssd deki versiyonu bitmis hali sanirim",
+                //     "redirect": "/projects/preprocessing",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Contex Free Grammer Parser for Turkish",
+                //     "description": "ssd de var",
+                //     "redirect": "/projects/grammerparser",
+                //     "image": ""
+                // },
+                // {
+                //     "title": "Question Answer System built on BERT",
+                //     "description": "ssd de bi yerlerde olmasi lazim",
+                //     "redirect": "/projects/questionanswer",
+                //     "image": ""
+                // }
             ]
         }
     
@@ -200,13 +200,19 @@ class Projects extends React.Component{
     render(){
         let projects = this.state.projects;
 
-        return <div className="projects">
-            <div className="projectsText"> Hello there, there are some of my projects</div>
+        return <div className='projectsHolder'>
+            <div className='projectsSpace'></div>
+        <div className="projects">
+            <div className="projectsText">
+            &emsp;There are some of my projects. I upload them when I find an opportunity, so not all my projects are listed here. Also, most of them do not include related
+            code parts. To reach them, or ask details about the projects, you can mail me.
+            </div>
             <div className='projectSections'>
                 {
                     projects.map((key)=>this.makeProject(key))
                 }
             </div>
+        </div>
         </div>
     }
 }
