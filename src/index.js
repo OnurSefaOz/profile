@@ -56,9 +56,9 @@ root.render(
       <Route path="/projects/songrecommendation" element={<Song></Song>}></Route>
       <Route path="/projects/paymenttype" element={<Payment></Payment>}></Route>
       <Route path="/projects/creditcard" element={<Creditcard></Creditcard>}></Route>
-      <Route path="/projects/vergidairesi" element={<Vd></Vd>}></Route>
+      <Route path="/projects/taxoffice" element={<Vd></Vd>}></Route>
       <Route path="/projects/pdfreader" element={<Pdf></Pdf>}></Route>
-      <Route path="/projects/expensetype" element={<Expensetype></Expensetype>}></Route>
+      <Route path="/projects/invoicetype" element={<Expensetype></Expensetype>}></Route>
       <Route path="/projects/address" element={<Address></Address>}></Route>
       <Route path="/projects/variableminimization" element={<Variable></Variable>}></Route>
       <Route path="/projects/syncticket" element={<Sync></Sync>}></Route>
@@ -73,7 +73,7 @@ root.render(
       <Route path="/projects/preprocessing" element={<Preprocess></Preprocess>}></Route>
       <Route path="/projects/grammerparser" element={<Cfg></Cfg>}></Route>
       <Route path="/projects/questionanswer" element={<Question></Question>}></Route>
-      <Route path="/projects/vkn" element={<Vkn></Vkn>}></Route>
+      <Route path="/projects/taxid" element={<Vkn></Vkn>}></Route>
       <Route path="/projects/pca" element={<Visualization></Visualization>}></Route>
 
     </Routes>

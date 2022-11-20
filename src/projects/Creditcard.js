@@ -29,7 +29,7 @@ class Project extends React.Component{
                 &emsp;If the reconstruction of the embedding is quite similar with the embedding itself, decided by cosine similarity, model assigns this instance as a credit card number.
                 </div>
                 <div className='instanceImage'>
-                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202321422-9d17deae-c4b8-4702-a009-31c236252794.png' alt='project image'></img>
+                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png' alt='project image'></img>
                     <div className='instanceImageDescription'>Example input and output</div>
                 </div>
                 

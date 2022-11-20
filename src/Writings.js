@@ -1,4 +1,6 @@
 import React from 'react';
+import Swal from 'sweetalert2';
+
 
 class Writings extends React.Component{
     constructor(){
@@ -68,8 +70,19 @@ class Writings extends React.Component{
         }
     }
 
+    popWriting(writing){
+        let htmlText = ""
+        writing.paragraphs.map((key)=>{htmlText += '<div class="popText">&emsp;'+key+"</div>"})
+        Swal.fire({
+            title: writing.title,
+            html: htmlText,
+            width: "70em",
+            showConfirmButton: false,
+        })
+    }
+
     makeWriting(k){
-        return (<div className='writingBlock'>
+        return (<div className='writingBlock' onClick={()=>this.popWriting(k)}>
             <div className='writingBlockHeader'>
                 <b>{k.title}</b>
             </div>

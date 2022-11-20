@@ -29,7 +29,7 @@ class Project extends React.Component{
                 I have adapted DenseNet201 and Upsampling algorithms to our case. This deep learning part was the first step of the two staged pipeline.
                 </div>
                 <div className='instanceImage'>
-                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202282457-49d6b7e3-555b-43e9-8df3-bd27709d5f92.png' alt='project image'></img>
+                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202869148-94095d80-d352-4438-9d58-411f09751142.png' alt='project image'></img>
                     <div className='instanceImageDescription'>Pipeline of the Address Line Detection Project</div>
                 </div>
                 <div className='instanceDescription'>

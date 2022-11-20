@@ -1,4 +1,6 @@
-
+.popText{
+    text-align: left;
+}
 
 .writings{
     padding-top: 1.5em;
@@ -17,6 +19,7 @@
         flex-direction: column;
         width: 80%;
         .writingBlock{
+            cursor: pointer;
             display: flex;
             flex-direction: column;
             margin-top: 2%;

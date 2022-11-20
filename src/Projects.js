@@ -7,28 +7,46 @@ class Projects extends React.Component{
         this.state = {
             projects: [
                 {
+                    "title": "Generating Art using Generative Adversarial Networks",
+                    "description": "githubdaki versiyonunu degil de hazirladigimiz final versiyonunu koyacagim",
+                    "redirect": "/projects/generatingart",
+                    "image": "https://user-images.githubusercontent.com/12373950/202875753-61866f25-7cfa-45c1-b1db-3a6545b8379f.png"
+                },
+                {
                     "title": "Address Line Detection",
-                    "description": "I have adapted DenseDepth methodology to extract address lines from expense images.",
+                    "description": "I have adapted DenseDepth methodology to extract address lines from invoice images.",
                     "redirect": "/projects/address",
                     "image": "https://user-images.githubusercontent.com/12373950/202281280-902bd6b6-d1ed-4d98-b547-dbbcb78c68a3.png"
                 },
                 {
-                    "title": "VKN Number Field Extraction from Expenses",
-                    "description": "VKN Number defines the related tax office, it is crucial to extract this value correctly. I have used autoencoders, RNN, attention, and candidate embedding mechanism.",
-                    "redirect": "/projects/vkn",
-                    "image": "https://user-images.githubusercontent.com/12373950/202317412-74e1cf5b-8bb8-41f4-a447-be88d94f22e3.png"
+                    "title": "Tax Id Field Extraction from Invoices",
+                    "description": "Tax Id defines the related tax office, it is crucial to extract this value correctly. I have used autoencoders, RNN, attention, and candidate embedding mechanism.",
+                    "redirect": "/projects/taxid",
+                    "image": "https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png"
+                },   
+                {
+                    "title": "Open Domain End-to-End Question Answering System built on BERT",
+                    "description": "ssd de bi yerlerde olmasi lazim",
+                    "redirect": "/projects/questionanswer",
+                    "image": "https://user-images.githubusercontent.com/12373950/202878698-f2145c0f-7b53-435d-8603-5250ec9330c9.png"
+                },             
+                {
+                    "title": "Credit Card Field Extraction from Inovices",
+                    "description": "Repayment of some invoices can done by the credit card information. Finding this information accuratly helps companies.",
+                    "redirect": "/projects/creditcard",
+                    "image": "https://user-images.githubusercontent.com/12373950/202870647-3893771d-c014-4692-b72a-935cdda328a4.png"
                 },
                 {
-                    "title": "Payment Type Detection of Expenses",
+                    "title": "Data Visualization using PCA",
+                    "description": "Dimensionality reduction techniques are used on MNIST dataset to view how to visualize multidimensional data on 2D planes. Also, implementation of reconstruction methods of dimensionally reduced images.",
+                    "redirect": "/projects/pca",
+                    "image": "https://user-images.githubusercontent.com/12373950/202245488-d3e69941-4c52-44d3-98e4-cdc7478bae65.png"
+                },
+                {
+                    "title": "Payment Type Detection of Invoices",
                     "description": "Detecting if the payment type is cash or credit card is essential for some companies.",
                     "redirect": "/projects/paymenttype",
-                    "image": "https://user-images.githubusercontent.com/12373950/202319754-c4ceba63-c018-47bc-8a31-bf293958e17c.png"
-                },                
-                {
-                    "title": "Credit Card Field Extraction from Expenses",
-                    "description": "Repayment of some expenses can done by the credit card information. Finding this information accuratly helps companies.",
-                    "redirect": "/projects/creditcard",
-                    "image": "https://user-images.githubusercontent.com/12373950/202321422-9d17deae-c4b8-4702-a009-31c236252794.png"
+                    "image": "https://user-images.githubusercontent.com/12373950/202870359-1f672a85-319f-4103-ba5e-82c7875592c5.png"
                 },
                 {
                     "title": "Inspectation of Outlier Detection Methodologies",
@@ -37,16 +55,34 @@ class Projects extends React.Component{
                     "image": "https://user-images.githubusercontent.com/12373950/202242561-d6078a8b-5c2e-4f5f-84a9-c0d38c2fd6e7.png"
                 },
                 {
+                    "title": "Tax Office Detection from Invoices",
+                    "description": "Detection of Tax Office names from invoices. This field is crucial for accounting.",
+                    "redirect": "/projects/taxoffice",
+                    "image": "https://user-images.githubusercontent.com/12373950/202870783-1e5bb1d3-35af-4efe-91de-ebc39e5bb66b.png"
+                },
+                {
+                    "title": "Invoice Type Detector",
+                    "description": "",
+                    "redirect": "/projects/invoicetype",
+                    "image": "https://user-images.githubusercontent.com/12373950/202871487-90a00df6-0dd0-49b4-a8d0-a436955a43ee.png"
+                },
+                {
+                    "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
+                    "description": "gepsmin ie310pr4 github",
+                    "redirect": "/projects/variableminimization",
+                    "image": "https://user-images.githubusercontent.com/12373950/202872372-a525dc53-7129-49d2-84e8-3bcf368a8ed7.png"
+                },
+                {
+                    "title": "Global Maxima Point Detector",
+                    "description": "gepsmin global maxima point detector github",
+                    "redirect": "/projects/globalmaxima",
+                    "image": "https://user-images.githubusercontent.com/12373950/202873622-d7b051aa-aedb-4fff-a10e-8118b89152c7.png"
+                },
+                {
                     "title": "Decision Tree",
                     "description": "I have implemented a decision tree algorithm that classifies points lie on a plane. Aim of the project was to visualize results of this algorithm in different stiuations and show when this algorithm is applicable and when it is not.",
                     "redirect": "/projects/decisiontree",
                     "image": "https://user-images.githubusercontent.com/12373950/202244829-a0b8a47e-395c-4dc9-9aa5-c9e8bacd048d.png"
-                },
-                {
-                    "title": "Data Visualization using PCA",
-                    "description": "data visualization",
-                    "redirect": "/projects/pca",
-                    "image": "https://user-images.githubusercontent.com/12373950/202245488-d3e69941-4c52-44d3-98e4-cdc7478bae65.png"
                 },
                 // {
                 //     "title": "Robot Localization Logic using Prolog",
@@ -73,27 +109,15 @@ class Projects extends React.Component{
                 //     "image": "https://user-images.githubusercontent.com/12373950/202249069-8c51869f-7bf2-4ee0-8965-f6bb29e9aa8c.png"
                 // },
                 // {
-                //     "title": "Vergi Dairesi Field Extraction from Expenses",
-                //     "description": "",
-                //     "redirect": "/projects/vergidairesi",
-                //     "image": ""
-                // },
-                // {
                 //     "title": "PDF Reader",
                 //     "description": "",
                 //     "redirect": "/projects/pdfreader",
                 //     "image": ""
                 // },
                 // {
-                //     "title": "Expense Type Detector",
-                //     "description": "",
-                //     "redirect": "/projects/expensetype",
-                //     "image": ""
-                // },
-                // {
-                //     "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
-                //     "description": "gepsmin ie310pr4 github",
-                //     "redirect": "/projects/variableminimization",
+                //     "title": "Contex Free Grammer Parser for Turkish",
+                //     "description": "ssd de var",
+                //     "redirect": "/projects/grammerparser",
                 //     "image": ""
                 // },
                 // {
@@ -106,12 +130,6 @@ class Projects extends React.Component{
                 //     "title": "WatchDog",
                 //     "description": "gepsmin watchdog github",
                 //     "redirect": "/projects/watchdog",
-                //     "image": ""
-                // },
-                // {
-                //     "title": "Global Maxima Point Detector",
-                //     "description": "gepsmin global maxima point detector github",
-                //     "redirect": "/projects/globalmaxima",
                 //     "image": ""
                 // },
                 // {
@@ -145,29 +163,11 @@ class Projects extends React.Component{
                 //     "image": ""
                 // },
                 // {
-                //     "title": "Generating Art using Generative Adversarial Networks",
-                //     "description": "githubdaki versiyonunu degil de hazirladigimiz final versiyonunu koyacagim",
-                //     "redirect": "/projects/generatingart",
-                //     "image": ""
-                // },
-                // {
                 //     "title": "Turkish Preprocessing",
                 //     "description": "OnurSefa github hesabinda var ama sanirim o final hali degil, ssd deki versiyonu bitmis hali sanirim",
                 //     "redirect": "/projects/preprocessing",
                 //     "image": ""
                 // },
-                // {
-                //     "title": "Contex Free Grammer Parser for Turkish",
-                //     "description": "ssd de var",
-                //     "redirect": "/projects/grammerparser",
-                //     "image": ""
-                // },
-                // {
-                //     "title": "Question Answer System built on BERT",
-                //     "description": "ssd de bi yerlerde olmasi lazim",
-                //     "redirect": "/projects/questionanswer",
-                //     "image": ""
-                // }
             ]
         }
     

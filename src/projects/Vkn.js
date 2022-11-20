@@ -10,13 +10,13 @@ class Project extends React.Component{
         return <div className="instanceBackground">
             <div className='instance'>
                 <div className='instanceHeader'>
-                    <b>VKN Number Field Extraction from Expenses</b>
+                    <b>Tax Id Field Extraction from Invoices</b>
                 </div>
                 <div className='instanceDescription'>
-                &emsp;I have developed this project in my company. I can not specify some details because of privacy issues
+                &emsp;I have developed this project in my company. I can not specify some details because of privacy issues. Examples are scrapped from web and their purpose only to demenstate the project, not to show the exact data or the methodology.
                 </div>
                 <div className='instanceDescription'>
-                &emsp;The project aims was to extract VKN number from expense documents. VKN number specifies the related tax department. After Azure Read Analyze OCR API returns words from imput image, I detected
+                &emsp;The project aim was to extract Tax Id from expense documents. Tax Id specifies the related tax department. After Azure Read Analyze OCR API returns words from imput image, I detected
                     candidates using simple regex operations. I detected neighbors of candidates and encoded them using Fasttext word embedding. Autoencoder architecture encodes and decodes each
                     candidate embedding. Model uses attention and RNN methods also. 
                 </div>
@@ -29,7 +29,7 @@ class Project extends React.Component{
                 When new example comes, if the model reconstructs input embedding correctly, model assigns it as a VKN Number.
                 </div>
                 <div className='instanceImage'>
-                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202317412-74e1cf5b-8bb8-41f4-a447-be88d94f22e3.png' alt='project image'></img>
+                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202869526-f48e8411-f27b-4a93-b72a-44508d19133c.png' alt='project image'></img>
                     <div className='instanceImageDescription'>Example output</div>
                 </div>
             </div>

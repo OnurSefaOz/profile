@@ -36,7 +36,7 @@ function Home() {
                                 
                             </div>
                             <div className="contactDirection">
-                                Rumeli Hisari Mah. 5. Sokak Sariyer/Istanbul 34470 
+                                Rumeli Hisari District 5. Street Sariyer/Istanbul 34470 
                             </div>
                         </div>
                     </div>
@@ -70,10 +70,10 @@ function Home() {
                     &emsp;You can contact me anytime about deep learning, art, my projects, or anything else.
                     </div>
                     <div>
-                    &emsp;<a href="https://github.com/OnurSefa/pdf/files/10044932/Transcript_ONUR-SEFA_OZCIBIK.pdf">MY TRANSCRIPT</a>
+                    &emsp;<a href="https://github.com/OnurSefa/data/files/10048336/Transcript_ONUR-SEFA_OZCIBIK.pdf">MY TRANSCRIPT</a>
                     </div>
                     <div>
-                    &emsp;<a href="https://github.com/OnurSefa/pdf/files/10044932/Transcript_ONUR-SEFA_OZCIBIK.pdf">MY RESUME</a>
+                    &emsp;<a href="https://github.com/OnurSefa/data/files/10048337/resume_OnurSefa_Ozcibik.pdf">MY RESUME</a>
                     </div>
                 </div>
             </div>

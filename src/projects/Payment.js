@@ -29,7 +29,7 @@ class Project extends React.Component{
                 &emsp;Attention enables the model to construct relations between selected words and identifies if the input instance includes credit card related information. 
                 </div>
                 <div className='instanceImage'>
-                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202319754-c4ceba63-c018-47bc-8a31-bf293958e17c.png' alt='project image'></img>
+                    <img className='instanceImageImage' src='https://user-images.githubusercontent.com/12373950/202870359-1f672a85-319f-4103-ba5e-82c7875592c5.png' alt='project image'></img>
                     <div className='instanceImageDescription'>Example input and output</div>
                 </div>
                 <div className='instanceDescription'>
