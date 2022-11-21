@@ -8,7 +8,7 @@ class Projects extends React.Component{
             projects: [
                 {
                     "title": "Generating Art using Generative Adversarial Networks",
-                    "description": "githubdaki versiyonunu degil de hazirladigimiz final versiyonunu koyacagim",
+                    "description": "This project is my graduation project and we were group of 2 undergraduate students. I researched several vision methodologies and implemented a GAN to produce art images more purposefully using VQGAN+CLIP.",
                     "redirect": "/projects/generatingart",
                     "image": "https://user-images.githubusercontent.com/12373950/202875753-61866f25-7cfa-45c1-b1db-3a6545b8379f.png"
                 },
@@ -26,7 +26,7 @@ class Projects extends React.Component{
                 },   
                 {
                     "title": "Open Domain End-to-End Question Answering System built on BERT",
-                    "description": "ssd de bi yerlerde olmasi lazim",
+                    "description": "The project includes document retriever and document reader modules to detect correct paragraphs and then detect correct phrases according to question sentence.",
                     "redirect": "/projects/questionanswer",
                     "image": "https://user-images.githubusercontent.com/12373950/202878698-f2145c0f-7b53-435d-8603-5250ec9330c9.png"
                 },             
@@ -62,19 +62,19 @@ class Projects extends React.Component{
                 },
                 {
                     "title": "Invoice Type Detector",
-                    "description": "",
+                    "description": "There are several invoice types and detection of them highly affects posterior models.",
                     "redirect": "/projects/invoicetype",
                     "image": "https://user-images.githubusercontent.com/12373950/202871487-90a00df6-0dd0-49b4-a8d0-a436955a43ee.png"
                 },
                 {
                     "title": "Variable Minimization using Bisection Method and Steepest Descent Method",
-                    "description": "gepsmin ie310pr4 github",
+                    "description": "Two methods are implemented to detect minimum point given the related functions.",
                     "redirect": "/projects/variableminimization",
                     "image": "https://user-images.githubusercontent.com/12373950/202872372-a525dc53-7129-49d2-84e8-3bcf368a8ed7.png"
                 },
                 {
                     "title": "Global Maxima Point Detector",
-                    "description": "gepsmin global maxima point detector github",
+                    "description": "Global maxima point detection methods and examples are investigated and implemented.",
                     "redirect": "/projects/globalmaxima",
                     "image": "https://user-images.githubusercontent.com/12373950/202873622-d7b051aa-aedb-4fff-a10e-8118b89152c7.png"
                 },
