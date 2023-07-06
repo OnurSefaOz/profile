@@ -27,13 +27,13 @@ function Navigation() {
                             </div>
                         </NavLink>
                     </div>
-                    <div className="navbarPage">
+                    {/* <div className="navbarPage">
                         <NavLink className="navbarProfile" to="/writings">
                             <div className="navbarProfileInner">
                                 Writings
                             </div>
                         </NavLink>
-                    </div>
+                    </div> */}
                 </div>
             </nav>
         </div>
